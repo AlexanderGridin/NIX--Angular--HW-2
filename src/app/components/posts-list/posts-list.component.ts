@@ -19,7 +19,7 @@ export class PostsListComponent implements OnInit {
   }
 
   private getPosts(): void {
-    this.getPostsSub = <Subscription>this.jsonPlaceholder.getPosts().subscribe((data: Post[]) => {
+    this.getPostsSub = <Subscription>this.jsonPlaceholder.getPosts().subscribe((data: Post[]): void => {
       this.posts = data;
     });
   }
