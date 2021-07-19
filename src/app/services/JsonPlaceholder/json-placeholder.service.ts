@@ -3,9 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Post } from 'src/app/interfaces/post';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class JsonPlaceholderService {
 
   constructor(private http: HttpClient) { }
