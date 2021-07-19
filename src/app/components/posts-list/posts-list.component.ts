@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { JsonPlaceholderService } from '../../providers/JsonPlaceholder/json-placeholder.service';
+import { JsonPlaceholderService } from '../../services/JsonPlaceholder/json-placeholder.service';
 import { Post } from '../../interfaces/post';
 
 @Component({

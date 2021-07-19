@@ -1,8 +1,8 @@
 .posts-list
 {
+  list-style: none;
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 .posts-list__item
@@ -19,6 +19,7 @@
 .posts-list__item:nth-child(even)
 {
   background-color: #16A05D;
+  border: 1px solid #16A05D;
   color: #FFF;
 }
 
