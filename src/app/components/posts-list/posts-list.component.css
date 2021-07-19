@@ -1,0 +1,33 @@
+.posts-list
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.posts-list__item
+{
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.posts-list__item + .posts-list__item
+{
+  margin-top: 15px;
+}
+
+.posts-list__item:nth-child(even)
+{
+  background-color: #16A05D;
+  color: #FFF;
+}
+
+.title-length
+{
+  color: #aaa;
+}
+
+.posts-list__item:nth-child(even) .title-length
+{
+  color: #FFF;
+}

@@ -1,0 +1,10 @@
+<ul class="posts-list">
+  <ng-template ngFor let-post [ngForOf]="posts">
+    <ng-template [ngIf]="post.title.length <= 30">
+      <li class="posts-list__item">
+        <div class="title-length">Длина заголовка: <strong>{{post.title.length}}</strong> символов.</div>
+        <app-post [id]="post.id" [title]="post.title" [body]="post.body"></app-post>
+      </li>
+    </ng-template>
+  </ng-template>
+</ul>

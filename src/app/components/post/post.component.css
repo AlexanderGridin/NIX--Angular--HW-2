@@ -1,0 +1,5 @@
+.post__title::first-letter,
+.post__body::first-letter
+{
+  text-transform: uppercase;
+}
